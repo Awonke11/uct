@@ -14,10 +14,10 @@ compile_list: src/list/*.java
 compile_all_files: compile_src compile_binary compile_files compile_list #! Compile all java files
 
 # Run the main classes
-run_binary: compile_all
+run_binary: compile_all generate_all_javadocs
 	java -cp bin src/binary/MainBinary
 
-run_list: compile_all
+run_list: compile_all generate_all_javadocs
 	java -cp bin src/list/MainList
 
 # Generate javadoc for each file in src
