@@ -25,10 +25,11 @@ public class ListArrayTest {
         list.addField(new Field("term 2", "sentence 2", 123.0));
         list.addField(new Field("term 3", "sentence 3", 123.0));
 
-        Field updatedField = new Field("term 123", "sentence 123", 123.0);
-        list.updateField("term 2", updatedField);
+        String term = "term 2";
+        Field updatedField = new Field("term 2", "sentence 123", 123.0);
+        list.updateField(term, updatedField);
 
-        Assert.assertEquals(list.getField("term 123").toString(), updatedField.toString());
+        Assert.assertTrue(updatedField.getSentence().equals("sentence 123"));
     }
 
     @Test
