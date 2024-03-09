@@ -1,10 +1,7 @@
 # UCT Computer assignment one
 
-The goal of this assignment is to build a proof of concept Java program for querying the knowl 
-edge in GenericsKB, as well as to add additional knowledge or to update the knowledge base.
-We assume for this assignment that the data is stored in memory while the application performs
-multiple functions on demand until the user exits. A more elaborate application could offer ad 
-ditional functionality but we focus on just the core functionality for this assignment.
+The goal of this assignment is to build a proof of concept Java program for querying the knowledge in GenericsKB, as well as to add additional knowledge or to update the knowledge base.
+We assume for this assignment that the data is stored in memory while the application performs multiple functions on demand until the user exits. A more elaborate application could offer additional functionality but we focus on just the core functionality for this assignment.
 
 ## Application requirements
 Your application must include at least functionality to do the following:
@@ -17,6 +14,7 @@ For this assignment, I chose to use the terminal instead of a GUI.
 
 # Getting started
 For this assignment, I used a terminal. You can use the terminal of your choice.
+To get started, you need to `clone` repo. Here is a [resource](https://youtu.be/yxvqLBHZfXk?si=MIbBPWl2P1-x0Ytq) on how to clone a resource.
 
 ### User prompts
 These will be the prompts that you will receive from the terminal.
