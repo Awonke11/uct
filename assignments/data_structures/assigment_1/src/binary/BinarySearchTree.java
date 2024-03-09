@@ -3,9 +3,9 @@ package src.binary;
 import src.Field;
 
 /**
- * @author: Awonke Mnotoza
- * @version: 1.0.0
- * @description: Binary search tree with traversals
+ * author:: Awonke Mnotoza
+ * version:: 1.0.0
+ * description:: Binary search tree with traversals
  */
 
 public class BinarySearchTree {
@@ -30,7 +30,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Right child</h3>
+     *  Right child<br />
      * Retrieves the right child of the current binary search tree.
      *
      * @return The right child of the current binary search tree.
@@ -40,7 +40,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Left child</h3>
+     *  Left child<br />
      * Retrieves the left child of the current binary search tree.
      *
      * @return The left child of the current binary search tree.
@@ -50,7 +50,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Root</h3>
+     *  Root<br />
      * Retrieves the root field of the current binary search tree.
      * <br />
      * The root is of type Field.
@@ -63,7 +63,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Insert fields</h3>
+     *  Insert fields<br />
      * Inserts an array of fields into the binary search tree.
      * @see src.Field
      *
@@ -78,7 +78,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Insert field</h3>
+     *  Insert field<br />
      * Inserts a field into the binary search tree.
      * 
      * <h4>Time complexity:</h4>
@@ -86,7 +86,6 @@ public class BinarySearchTree {
      *
      * @param parent The parent node where the field will be inserted.
      * @param field The Field object to be inserted into the tree.
-     * @return The current binary search tree.
      * @see src.Field
      */
     public void insertField(BinarySearchTree parent, Field field) {
@@ -114,7 +113,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Pre-Order Traverse</h3>
+     *  Pre-Order Traverse<br />
      * Performs a pre-order traversal of the binary search tree and prints each node's key.
      *
      * @param tree The binary search tree to be traversed.
@@ -130,7 +129,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>In-Order Traverse</h3>
+     *  In-Order Traverse<br />
      * Performs an in-order traversal of the binary search tree and prints each node's key.
      *
      * @param tree The binary search tree to be traversed.
@@ -146,7 +145,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Post-Order Traverse</h3>
+     *  Post-Order Traverse<br />
      * Performs a post-order traversal of the binary search tree and prints each node's key.
      *
      * @param tree The binary search tree to be traversed.
@@ -162,7 +161,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Find Node</h3>
+     *  Find Node<br />
      * Finds a node with a specific key in the binary search tree.
      *
      * @param key The key to search for.
@@ -187,7 +186,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Find Node with Sentence</h3>
+     *  Find Node with Sentence<br />
      * Finds a node with a specific key and sentence in the binary search tree.
      *
      * @param key The key to search for.
@@ -217,7 +216,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Update Field</h3>
+     *  Update Field<br />
      * Updates a field in the binary search tree with a specified key.
      *
      * @param key The key of the field to be updated.
@@ -232,7 +231,7 @@ public class BinarySearchTree {
     }
     
     /**
-     * <h3>Update Whole Tree</h3>
+     *  Update Whole Tree<br />
      * Updates the entire binary search tree starting from a specific node.
      * 
      * <h4>Note:</h4>
@@ -248,7 +247,7 @@ public class BinarySearchTree {
     }
 
     /**
-     * <h3>Convert to string</h3>
+     *  Convert to string<br />
      * Overrides the toString method to generate a string representation of the binary search tree.
      * <br /><br />
      * For more information, see the <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--">documentation</a>.

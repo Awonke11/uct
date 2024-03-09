@@ -9,12 +9,15 @@ import src.FileList;
 import src.files.ExtractFile;
 
 /**
- * @author: Awonke Mnotoza
- * @version: 1.0.0
- * @description: Interactive application to manage a knowledge base using a binary search tree
+ * The `MainBinary` class represents an interactive application to manage a knowledge base using a binary search tree.
+ * It provides functionality to load a knowledge base from a file, add new statements, and search for items in the knowledge base.
+ * This class serves as the entry point for the application.
+ * 
+ *  author:: Awonke Mnotoza
+ * version:: 1.0.0
+ * description:: Interactive application to manage a knowledge base using a binary search tree
  * @see src.binary.BinarySearchTree
  */
-
 public class MainBinary {
     private static BinarySearchTree tree;
     private static String commandText = """
@@ -25,6 +28,16 @@ public class MainBinary {
         4. Search for a item in the knowledge base by term and sentence
         5. Quit""";
     
+    /**
+     * The default constructor.
+     */
+    public MainBinary() {}
+
+    /**
+     * The main method that serves as the entry point for the application.
+     *
+     * @param args The command-line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -73,7 +86,7 @@ public class MainBinary {
     }
 
     /**
-     * <h3>Load knowledge base</h3>
+     *  Load knowledge base<br />
      * Loads a knowledge base from a file and returns an array of fields.
      * 
      * @return A binary search tree representing the loaded knowledge base.
@@ -118,7 +131,7 @@ public class MainBinary {
     }
 
     /**
-     * <h3>Add statement</h3>
+     *  Add statement<br />
      * Adds a new statement to the knowledge base.
      */
     @SuppressWarnings("resource")
@@ -157,7 +170,7 @@ public class MainBinary {
     }
 
     /**
-     * <h3>Search by term</h3>
+     *  Search by term<br />
      * Searches for an item in the knowledge base by term.
      */
     @SuppressWarnings("resource")
@@ -183,7 +196,7 @@ public class MainBinary {
     }
 
     /**
-     * <h3>Search by term and sentence</h3>
+     *  Search by term and sentence<br />
      * Searches for an item in the knowledge base by term and sentence.
      */
     @SuppressWarnings("resource")

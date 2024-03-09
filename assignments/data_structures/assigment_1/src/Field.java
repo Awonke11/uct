@@ -4,8 +4,8 @@ package src;
  * The `Field` class represents a data structure for storing information related to a field, such as term, sentence, confidence score, and a unique key.
  * It provides methods for retrieving and updating these properties, as well as generating a string representation of the field.
  *
- * @author Awonke Mnotoza
- * @version 1.0.0
+ * author: Awonke Mnotoza
+ * version: 1.0.0
  */
 public class Field {
     private String term = "";
@@ -14,13 +14,13 @@ public class Field {
     private Integer key = null;
 
     /**
-     * <h3>Constructor</h3>
+     *  Constructor<br />
      * Constructs an empty `Field` object.
      */
     public Field() {}
 
     /**
-     * <h3>Constructor</h3>
+     *  Constructor<br />
      * Constructs a `Field` object with the specified term, sentence, and confidence score.
      *
      * @param term            The term associated with the field.
@@ -35,7 +35,7 @@ public class Field {
     }
 
     /**
-     * <h3>Get term</h3>
+     *  Get term<br />
      * Gets the term associated with the field.
      *
      * @return The term as a string.
@@ -45,7 +45,7 @@ public class Field {
     }
 
     /**
-     * <h3>Get sentence</h3>
+     *  Get sentence<br />
      * Gets the sentence associated with the field.
      *
      * @return The sentence as a string.
@@ -55,7 +55,7 @@ public class Field {
     }
 
     /**
-     * <h3>Get confidence score</h3>
+     *  Get confidence score<br />
      * Gets the confidence score associated with the field.
      *
      * @return The confidence score as a double.
@@ -65,7 +65,7 @@ public class Field {
     }
 
     /**
-     * <h3>Get key</h3>
+     *  Get key<br />
      * Gets the unique key associated with the field.
      *
      * @return The key as an integer.
@@ -75,7 +75,7 @@ public class Field {
     }
 
     /**
-     * <h3>Set term</h3>
+     *  Set term<br />
      * Sets the term associated with the field.
      *
      * @param term The term to set.
@@ -85,7 +85,7 @@ public class Field {
     }
 
     /**
-     * <h3>Set sentence</h3>
+     *  Set sentence<br />
      * Sets the sentence associated with the field.
      *
      * @param sentence The sentence to set.
@@ -95,7 +95,7 @@ public class Field {
     }
 
     /**
-     * <h3>Set confidence score</h3>
+     *  Set confidence score<br />
      * Sets the confidence score associated with the field.
      *
      * @param confidenceScore The confidence score to set.
@@ -105,7 +105,7 @@ public class Field {
     }
 
     /**
-     * <h3>Set key</h3>
+     *  Set key<br />
      * Sets the unique key associated with the field.
      *
      * @param key The key to set.
@@ -115,7 +115,7 @@ public class Field {
     }
 
     /**
-     * <h3>Update field</h3>
+     *  Update field<br />
      * Updates the field with new values for term, sentence, and confidence score.
      *
      * @param term            The new term to set.
@@ -130,7 +130,7 @@ public class Field {
     }
 
     /**
-     * <h3>Generate string</h3>
+     *  Generate string<br />
      * Generates a string representation of the `Field` object, including key, term, sentence, and confidence score.
      *
      * @return A formatted string representing the field.

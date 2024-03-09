@@ -8,8 +8,8 @@ import java.io.IOException;
  * The `ExtractFile` class is responsible for reading the content of a file and capturing it as a string.
  * It provides methods to set the file path, read the file content, and retrieve the captured output.
  *
- * @author Awonke Mnotoza
- * @version 1.0.0
+ * author: Awonke Mnotoza
+ * version: 1.0.0
  */
 
 public class ExtractFile {
@@ -17,7 +17,7 @@ public class ExtractFile {
     private String output;
 
     /**
-     * <h3>Constructor</h3>
+     *  Constructor<br />
      * Constructs an `ExtractFile` object with the specified file path.
      *
      * @param filePath The file path of the target file.
@@ -27,7 +27,7 @@ public class ExtractFile {
     }
 
     /**
-     * <h3>Get File Path</h3>
+     *  Get File Path<br />
      * Gets the captured output containing the content of the extracted file.
      *
      * @return The captured output as a string.
@@ -37,7 +37,7 @@ public class ExtractFile {
     }
 
     /**
-     * <h3>Read File</h3>
+     *  Read File<br />
      * Reads the content of the file specified by the file path and captures it as a string.
      * 
      * <h4>Uses:</h4>

@@ -8,13 +8,16 @@ import src.Field;
 import src.FileList;
 import src.files.ExtractFile;
 
-/**
- * @author: Awonke Mnotoza
- * @version: 1.0.0
- * @description: Interactive application to manage a knowledge base using a list
+ /**
+ * The `MainList` class represents the main executable class for managing a knowledge base using a list-based data structure.
+ * It provides a command-line interface for actions such as loading a knowledge base from a file, adding statements,
+ * searching by term, searching by term and sentence, and quitting the application.
+ * 
+ * author:: Awonke Mnotoza
+ * version:: 1.0.0
+ * description:: Interactive application to manage a knowledge base using a list
  * @see src.list.ListArray
  */
-
 public class MainList {
     private static Field[] dataList;
     private static ListArray listArray;
@@ -26,6 +29,16 @@ public class MainList {
         4. Search for a item in the knowledge base by term and sentence
         5. Quit""";
 
+    /**
+     * The default constructor.
+     */
+    public MainList() {}
+    
+    /**
+     * The main method that serves as the entry point for the application.
+     *
+     * @param args The command-line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -74,7 +87,7 @@ public class MainList {
     }
 
     /**
-     * <h3>Load knowledge base</h3>
+     *  Load knowledge base<br />
      * Loads a knowledge base from a file and returns an array of fields.
      *
      * @return An array of `Field` objects representing the loaded knowledge base.
@@ -120,7 +133,7 @@ public class MainList {
     }
 
     /**
-     * <h3>Add statement</h3>
+     *  Add statement<br />
      * Adds a new statement to the knowledge base.
      */
     @SuppressWarnings("resource")
@@ -161,7 +174,7 @@ public class MainList {
     }
 
     /**
-     * <h3>Search by term</h3>
+     *  Search by term<br />
      * Searches for an item in the knowledge base by term.
      */
     @SuppressWarnings("resource")
@@ -186,7 +199,7 @@ public class MainList {
     }
 
     /**
-     * <h3>Search by term and sentence</h3>
+     *  Search by term and sentence<br />
      * Searches for an item in the knowledge base by term and sentence.
      */
     @SuppressWarnings("resource")

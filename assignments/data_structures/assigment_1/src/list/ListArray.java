@@ -3,9 +3,9 @@ package src.list;
 import src.Field;
 
 /**
- * @author: Awonke Mnotoza
- * @version: 1.0.0
- * @description: ListArray with dynamic size
+ * author:: Awonke Mnotoza
+ * version:: 1.0.0
+ * description:: ListArray with dynamic size
  */
 
 public class ListArray {
@@ -14,13 +14,13 @@ public class ListArray {
     private int index = 0;
 
     /**
-     * <h3>Constructor</h3>
+     *  Constructor<br />
      * Constructs an empty ListArray with the default size.
      */
     public ListArray() {}
 
     /**
-     * <h3>Constructor with initial Field</h3>
+     *  Constructor with initial Field<br />
      * Constructs a ListArray with a specified Field.
      *
      * @param fields The initial Field to add to the array.
@@ -31,7 +31,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Increment Size</h3>
+     *  Increment Size<br />
      * Increments the size of the array.
      * <br /><br />
      * <h4>Note:</h4>
@@ -49,7 +49,7 @@ public class ListArray {
     }
     
     /**
-     * <h3>Get List Size</h3>
+     *  Get List Size<br />
      * Gets the current size of the array.
      *
      * @return The current size of the array.
@@ -59,7 +59,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Get List</h3>
+     *  Get List<br />
      * Gets the array of Field objects.
      *
      * @return The array of Field objects.
@@ -81,7 +81,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Add Field</h3>
+     *  Add Field<br />
      * Adds a single Field object to the list.
      *
      * @param fields The Field object to add.
@@ -93,7 +93,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Get Field by term</h3>
+     *  Get Field by term<br />
      * Retrieves a Field object from the list based on the specified term.
      *
      * @param key The term to search for.
@@ -110,7 +110,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Get Field by term and sentence</h3>
+     *  Get Field by term and sentence<br />
      * Retrieves a Field object from the list based on the specified term and sentence.
      *
      * @param key The term to search for.
@@ -128,7 +128,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Update Field</h3>
+     *  Update Field<br />
      * Updates a Field object in the list with a new Field based on the specified term.
      *
      * @param key The term of the Field to be updated.
@@ -143,7 +143,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Remove Field</h3>
+     *  Remove Field<br />
      * Removes a Field object from the list based on the specified term.
      *
      * @param key The term of the Field to be removed.
@@ -177,7 +177,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Reduce Size</h3>
+     *  Reduce Size<br />
      * Reduces the size of the array when necessary.
      * This method is called when a field is removed, and the list size is less than half of the array size.
      * Time Complexity: O(n), where n is the current size of the list.
@@ -195,7 +195,7 @@ public class ListArray {
     }
 
     /**
-     * <h3>Generate string</h3>
+     *  Generate string<br />
      * Generates a string representation of the `ListArray` object, including the list of fields.
      * 
      * @return A formatted string representing the list of fields.

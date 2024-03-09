@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"src.binary","c":"MainBinary","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"src.binary","c":"MainBinary","l":"MainBinary()","u":"%3Cinit%3E()"}];updateSearchResults();

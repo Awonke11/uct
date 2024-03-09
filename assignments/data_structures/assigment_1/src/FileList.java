@@ -5,8 +5,8 @@ package src;
  * It contains information about the list size, the original list, and the generated Field list.
  * This class is designed to facilitate the conversion of string-based data into Field objects.
  *
- * @author Awonke Mnotoza
- * @version 1.0.0
+ * author: Awonke Mnotoza
+ * version: 1.0.0
  */
 public class FileList {
     private int listSize = 0;
@@ -14,7 +14,7 @@ public class FileList {
     private Field[] fieldList;
 
     /**
-     * <h3>Constructor</h3>
+     *  Constructor<br />
      * Constructs a `FileList` object with the specified list of tab-separated values.
      *
      * @param list The list of tab-separated values as strings.
@@ -25,7 +25,7 @@ public class FileList {
     }
 
     /**
-     * <h3>Get List Size</h3>
+     *  Get List Size<br />
      * Gets the size of the original list.
      *
      * @return The size of the original list.
@@ -35,7 +35,7 @@ public class FileList {
     }
 
     /**
-     * <h3>Get Field List Length</h3>
+     *  Get Field List Length<br />
      * Gets the length of the generated Field list.
      *
      * @return The length of the generated Field list.
@@ -45,7 +45,7 @@ public class FileList {
     }
 
     /**
-     * <h3>Generate Field List</h3>
+     *  Generate Field List<br />
      * Generates a list of Field objects from the original list of tab-separated values.
      * Each string in the original list is split into components using tabs, and a Field object is created for each set of components.
      */
@@ -69,7 +69,7 @@ public class FileList {
     }
 
     /**
-     * <h3>Get Field List</h3>
+     *  Get Field List<br />
      * Gets the generated list of Field objects.
      *
      * @return The generated list of Field objects.
