@@ -8,6 +8,13 @@ import src.Field;
 import src.FileList;
 import src.files.ExtractFile;
 
+/**
+ * @author: Awonke Mnotoza
+ * @version: 1.0.0
+ * @description: Interactive application to manage a knowledge base using a binary search tree
+ * @see src.binary.BinarySearchTree
+ */
+
 public class MainBinary {
     private static BinarySearchTree tree;
     private static String commandText = """
@@ -65,6 +72,12 @@ public class MainBinary {
         input.close();
     }
 
+    /**
+     * <h3>Load knowledge base</h3>
+     * Loads a knowledge base from a file and returns an array of fields.
+     * 
+     * @return A binary search tree representing the loaded knowledge base.
+     */
     @SuppressWarnings("resource")
     private static BinarySearchTree loadKnowledgeBase() {
         Scanner fileInput = new Scanner(System.in);
@@ -104,6 +117,10 @@ public class MainBinary {
         }
     }
 
+    /**
+     * <h3>Add statement</h3>
+     * Adds a new statement to the knowledge base.
+     */
     @SuppressWarnings("resource")
     private static void addStatement() {
         Scanner input = new Scanner(System.in);
@@ -139,6 +156,10 @@ public class MainBinary {
         }
     }
 
+    /**
+     * <h3>Search by term</h3>
+     * Searches for an item in the knowledge base by term.
+     */
     @SuppressWarnings("resource")
     private static void searchByTerm() {
         Scanner input = new Scanner(System.in);
@@ -161,6 +182,10 @@ public class MainBinary {
         }
     }
 
+    /**
+     * <h3>Search by term and sentence</h3>
+     * Searches for an item in the knowledge base by term and sentence.
+     */
     @SuppressWarnings("resource")
     private static void searchByTermAndSentence() {
         Scanner input = new Scanner(System.in);

@@ -2,6 +2,12 @@ package src.binary;
 
 import src.Field;
 
+/**
+ * @author: Awonke Mnotoza
+ * @version: 1.0.0
+ * @description: Binary search tree with traversals
+ */
+
 public class BinarySearchTree {
     private Field root = null;
     private BinarySearchTree left = null;
@@ -74,11 +80,14 @@ public class BinarySearchTree {
     /**
      * <h3>Insert field</h3>
      * Inserts a field into the binary search tree.
-     * @see src.Field
+     * 
+     * <h4>Time complexity:</h4>
+     * ⌛ | O(logn)
      *
      * @param parent The parent node where the field will be inserted.
      * @param field The Field object to be inserted into the tree.
      * @return The current binary search tree.
+     * @see src.Field
      */
     public void insertField(BinarySearchTree parent, Field field) {
         Integer keyValue = field.getKey();

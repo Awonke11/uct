@@ -8,11 +8,14 @@ import src.Field;
 import src.FileList;
 import src.files.ExtractFile;
 
-public class MainList {
-    /**
-     * @param args
-     */
+/**
+ * @author: Awonke Mnotoza
+ * @version: 1.0.0
+ * @description: Interactive application to manage a knowledge base using a list
+ * @see src.list.ListArray
+ */
 
+public class MainList {
     private static Field[] dataList;
     private static ListArray listArray;
     private static String commandText = """
@@ -70,6 +73,12 @@ public class MainList {
         input.close();
     }
 
+    /**
+     * <h3>Load knowledge base</h3>
+     * Loads a knowledge base from a file and returns an array of fields.
+     *
+     * @return An array of `Field` objects representing the loaded knowledge base.
+     */
     @SuppressWarnings("resource")
     public static Field[] loadKnowledgeBase() {
         Scanner fileInput = new Scanner(System.in);
@@ -110,6 +119,10 @@ public class MainList {
         }
     }
 
+    /**
+     * <h3>Add statement</h3>
+     * Adds a new statement to the knowledge base.
+     */
     @SuppressWarnings("resource")
     public static void addStatement() {
         Scanner input = new Scanner(System.in);
@@ -147,6 +160,10 @@ public class MainList {
         System.out.println("Statement added successfully!\n");
     }
 
+    /**
+     * <h3>Search by term</h3>
+     * Searches for an item in the knowledge base by term.
+     */
     @SuppressWarnings("resource")
     public static void searchByTerm() {
         Scanner input = new Scanner(System.in);
@@ -168,6 +185,10 @@ public class MainList {
         }
     }
 
+    /**
+     * <h3>Search by term and sentence</h3>
+     * Searches for an item in the knowledge base by term and sentence.
+     */
     @SuppressWarnings("resource")
     public static void searchByTermAndSentence() {
         Scanner input = new Scanner(System.in);
