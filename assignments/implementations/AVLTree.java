@@ -16,5 +16,20 @@ public class AVLTree<DataType> {
         this.root = root;
     }
 
+    /**
+     * This method will return the left child from the node
+     * @return the left child
+     */
+    public AVLTree<DataType> getLeftChild() {
+        return this.left;
+    } 
+
+    /**
+     * This method will return the right child from the node
+     * @return the right child
+     */
+    public AVLTree<DataType> getRightChild() {
+        return this.right;
+    } 
 
 }
