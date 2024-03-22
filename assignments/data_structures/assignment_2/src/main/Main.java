@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-import file.FileContent;
+import files.FileContent;
 import lib.AVLTree;
 
 public class Main {

@@ -1,0 +1,50 @@
+criminologist	Criminologists are workers.	1.0
+albatross	Albatrosses have (part) faces.	1.0
+isolated organ	Isolated organs are rich in endothelial cells, vascular smooth muscle and other types of cells.	0.7458134293556213
+posterior molar	Posterior molars erupt at the back of the row and slowly move forward.	0.7185370326042175
+distinct structure	Distinct structures serve functions.	1.0
+melatonin	Melatonin is produced by glands.	1.0
+packer	Packers have (part) arms.	1.0
+running	Running  car crashs.	1.0
+chatterbox	A chatterbox is a helleborine	1.0
+structural abnormality	Structural abnormalities involve changes in the structure of one or more chromosomes.	0.7944852709770203
+computer hardware	Computer hardware is devices.	1.0
+brain chemistry	Brain chemistry regulates sleep and different drugs affect sleep in different ways.	0.7017922401428223
+differentiator	A differentiator is a person	1.0
+phytoplasma infection	Phytoplasma infection causes proliferation of axillary shoots.	0.8194813132286072
+business management	Business management is the process of managing resources including time, money, and people.	0.7038193941116333
+toasting	Toastings is cooking.	1.0
+oxidizer	Oxidizers spontaneously emit oxygen at either room temperature or under slight heating.	0.7951671481132507
+common pest	Common pests find in homes.	1.0
+court card	A court card is a playing card	1.0
+chromoplast	Chromoplasts contain red or yellow xanthophyll pigments in large amounts.	0.8275687098503113
+tobacco	Tobacco increases acid production and damages the lining of the stomach.	0.7157122492790222
+meninge	Meninges pass thru intervertebral foramina, continuous with connective tissue around spinal nerves.	0.7360921502113342
+endocardial cell	Endocardial cells begin to form the myocardium .	0.7921993732452393
+gasp	A gasp is inhalation	1.0
+diploidy	Diploidy refers to the condition in which individuals have two sets of genes, one from each parent.	0.8030765056610107
+general	Generals are heads.	1.0
+research project	A research project is research	1.0
+screen pass	A screen pass is an aerial	1.0
+severe pain	Severe pain causes a desire to dies.	1.0
+cusp	A cusp is a point	1.0
+closer	Closers are magazines.	1.0
+subsidiary company	A subsidiary company is a company	1.0
+counterfeiter	Counterfeiters have (part) legs.	1.0
+centerboard	A centerboard is a plate	1.0
+cimetidine	A cimetidine is an agent	1.0
+scuba gear	Scuba gear is sports equipment.	1.0
+part	Parts are concepts.	1.0
+demobilization	Demobilization is social control	1.0
+centaur	A centaur is a mythical creature	1.0
+lipid membrane	Lipid membrane contains more unsaturated fatty acids to prevent solidifcation.	0.7362057566642761
+unicellular eukaryotic organism	Unicellular eukaryotic organisms include amoebas.	1.0
+bacterial virus	Bacterial viruses cause infection.	1.0
+hand clapping	Hand clapping is commendation	1.0
+bone formation	Bone formation starts during embryonic life.	0.786624014377594
+calcium deficiency	Calcium deficiency is caused by loss of the mineral from the skeleton.	0.841322660446167
+true animal	True animals are multicellular and have differentiated tissues.	0.7352986931800842
+gondola car	A gondola car is a freight car	1.0
+white flower	White flowers appear in early springs.	1.0
+exonuclease	An exonuclease is nuclease	1.0
+black carp	Black carp have huge molars for crushing the shells of the snails and mussels that it likes to eat.	0.7175303101539612
