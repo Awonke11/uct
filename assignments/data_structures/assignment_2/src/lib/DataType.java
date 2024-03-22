@@ -1,4 +1,10 @@
 package lib;
+
+/**
+ * DataType class
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class DataType {
     private String term = "";
     private String sentence = "";
@@ -11,9 +17,9 @@ public class DataType {
 
     /**
      * Constructor for DataType
-     * @param term
-     * @param sentence
-     * @param confidenceScore
+     * @param term the term
+     * @param sentence the sentence
+     * @param confidenceScore the confidenceScore
      */
     public DataType(String term, String sentence, Double confidenceScore) {
         this.term = term;
@@ -22,6 +28,7 @@ public class DataType {
     }
 
     /**
+     * Get the term
      * @return String return the term
      */
     public String getTerm() {
@@ -29,6 +36,7 @@ public class DataType {
     }
 
     /**
+     * Set the term
      * @param term the term to set
      */
     public void setTerm(String term) {
@@ -36,6 +44,7 @@ public class DataType {
     }
 
     /**
+     * Get the sentence
      * @return String return the sentence
      */
     public String getSentence() {
@@ -43,6 +52,7 @@ public class DataType {
     }
 
     /**
+     * Set the sentence
      * @param sentence the sentence to set
      */
     public void setSentence(String sentence) {
@@ -50,6 +60,7 @@ public class DataType {
     }
 
     /**
+     * Get the confidenceScore
      * @return Double return the confidenceScore
      */
     public Double getConfidenceScore() {
@@ -57,6 +68,7 @@ public class DataType {
     }
 
     /**
+     * Set the confidenceScore
      * @param confidenceScore the confidenceScore to set
      */
     public void setConfidenceScore(Double confidenceScore) {

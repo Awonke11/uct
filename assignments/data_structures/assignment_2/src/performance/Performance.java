@@ -14,7 +14,7 @@ public class Performance {
 
     /**
      * Get the execution count
-     * @return
+     * @return the execution count
      */
     public int getExecutionCount() {
         return executionCount;
@@ -29,9 +29,9 @@ public class Performance {
 
     /**
      * Evaluate the time complexity
-     * @param count
-     * @param size
-     * @return
+     * @param count the number of executions
+     * @param size the size of the tree
+     * @return the time complexity
      */
     private String evaluateTimeComplexity(int count, int size) {
         if (count == 1) {
@@ -45,9 +45,9 @@ public class Performance {
 
     /**
      * Print the performance analysis
-     * @param count
-     * @param size
-     * @return
+     * @param count the number of executions
+     * @param size the size of the tree
+     * @return the performance analysis
      */
     public String performanceAnalysis(int count, int size) {
         String timeComplexity = evaluateTimeComplexity(count, size);
@@ -64,7 +64,7 @@ public class Performance {
 
     /**
      * Override toString
-     * @return
+     * @return string format
      */
     @Override
     public String toString() {

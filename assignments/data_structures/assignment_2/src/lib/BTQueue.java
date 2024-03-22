@@ -3,6 +3,7 @@ package lib;
 /**
  * Hussein's BTQueue
  * Author: Hussein Suleman
+ * Edited: Awonke Mnotoza
  * Date: 26 March 2017
  */
 public class BTQueue
@@ -12,7 +13,6 @@ public class BTQueue
       
    /** 
     * Constructor
-    * @param node
     */
    public BTQueue ()
    {
@@ -37,7 +37,7 @@ public class BTQueue
    
    /** 
     * Enqueue node
-    * @param node
+    * @param node the node to enqueue
     */
    public void enQueue ( BinaryTreeNode node )
    {

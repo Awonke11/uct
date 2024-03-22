@@ -5,7 +5,22 @@ import java.util.Scanner;
 import files.FileContent;
 import lib.AVLTree;
 
+/**
+ * Main class for executing commands
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class MainExperiment {
+
+    /**
+     * General constructor
+     */
+    public MainExperiment() {}
+
+    /**
+     * Main class for executing commands
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

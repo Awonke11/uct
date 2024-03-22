@@ -5,11 +5,21 @@ import java.util.Scanner;
 import files.FileContent;
 import lib.AVLTree;
 
+/**
+ * Main class for executing commands
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class Main {
+
+    /**
+     * General constructor
+     */
+    public Main() {}
     
     /** 
      * Main class for executing commands
-     * @param args
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -30,11 +40,11 @@ public class Main {
             Integer option = input.nextInt();
 
             if (option == 1) {
-                System.out.print("Enter path to Knowledge Base file: ");
+                System.out.print("Enter Knowledge Base file name (data folder is the parent folder): \n> ");
                 String baseFile = input.next();
                 fileContent.loadGenericsFile(tree, baseFile);
 
-                System.out.print("Enter path to query file: ");
+                System.out.print("Enter query file name (data folder is the parent folder): \n> ");
                 String file = input.next();
                 fileContent.queryTree(tree, file);
             }

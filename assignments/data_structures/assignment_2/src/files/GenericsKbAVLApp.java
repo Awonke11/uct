@@ -7,8 +7,25 @@ import lib.AVLTree;
 import lib.DataType;
 import performance.Performance;
 
+/**
+ * GenericsKbAVLApp class loads and extracts file content
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class GenericsKbAVLApp {
 
+    /**
+     * Constructor
+     */
+    public GenericsKbAVLApp() {}
+
+    /**
+     * Load and extract file content
+     * @param filePath the path to the file
+     * @param tree the tree
+     * @return AVLTree the tree
+     * @throws IOException If an I/O error occurs while reading the file.
+     */
     public AVLTree retrieveFileContent(String filePath, AVLTree tree) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
 

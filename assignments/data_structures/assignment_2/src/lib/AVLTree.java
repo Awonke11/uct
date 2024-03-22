@@ -11,10 +11,16 @@ import performance.Performance;
  */
 public class AVLTree extends BinaryTree
 {
+
+   /**
+    * Constructor
+    */
+   public AVLTree () {}
+
    /**
     * Get the height of the tree
-    * @param node
-    * @return
+    * @param node the root of the tree to get the height
+    * @return the height
     */
    public int height ( BinaryTreeNode node )
    {
@@ -25,8 +31,8 @@ public class AVLTree extends BinaryTree
    
    /**
     * Get the balance factor
-    * @param node
-    * @return
+    * @param node the root of the tree to get the balance factor
+    * @return the balance factor
     */
    public int balanceFactor ( BinaryTreeNode node ) {
       return height (node.right) - height (node.left);
@@ -34,7 +40,7 @@ public class AVLTree extends BinaryTree
    
    /**
     * Fix the height
-    * @param node
+    * @param node the root of the tree to fix the height
     */
    public void fixHeight ( BinaryTreeNode node )
    {
@@ -43,9 +49,9 @@ public class AVLTree extends BinaryTree
    
    /**
     * Rotate the tree
-    * @param p
-    * @param performance
-    * @return
+    * @param p the root of the tree to rotate
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode rotateRight ( BinaryTreeNode p, Performance performance )
    {
@@ -60,9 +66,9 @@ public class AVLTree extends BinaryTree
 
    /**
     * Rotate the tree
-    * @param q
-    * @param performance
-    * @return
+    * @param q the root of the tree to rotate
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode rotateLeft ( BinaryTreeNode q, Performance performance )
    {
@@ -77,9 +83,9 @@ public class AVLTree extends BinaryTree
    
    /**
     * Balance the tree
-    * @param p
-    * @param performance
-    * @return
+    * @param p the root of the tree to balance
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode balance ( BinaryTreeNode p, Performance performance ) {
       fixHeight (p);
@@ -100,8 +106,8 @@ public class AVLTree extends BinaryTree
 
    /** 
     * Insert the node
-    * @param d
-    * @param performance
+    * @param d the data
+    * @param performance the performance object
    */
    public void insert ( DataType d, Performance performance )
    {
@@ -110,10 +116,10 @@ public class AVLTree extends BinaryTree
 
    /**
     * Insert the node
-    * @param d
-    * @param node
-    * @param performance
-    * @return
+    * @param d the data
+    * @param node the root of the tree
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode insert ( DataType d, BinaryTreeNode node, Performance performance ) {
       if (node == null) {
@@ -133,8 +139,8 @@ public class AVLTree extends BinaryTree
    
    /**
     * Delete the node
-    * @param d
-    * @param performance
+    * @param d the data
+    * @param performance the performance object
     */
    public void delete ( DataType d, Performance performance )
    {
@@ -143,10 +149,10 @@ public class AVLTree extends BinaryTree
 
    /**
     * Delete the node
-    * @param d
-    * @param node
-    * @param performance
-    * @return
+    * @param d the data 
+    * @param node the root of the tree
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode delete ( DataType d, BinaryTreeNode node, Performance performance )
    {
@@ -181,8 +187,8 @@ public class AVLTree extends BinaryTree
    
    /**
     * Find the minimum
-    * @param node
-    * @return
+    * @param node the root of the tree
+    * @return the minimum
     */
    public BinaryTreeNode findMin ( BinaryTreeNode node )
    {
@@ -194,9 +200,9 @@ public class AVLTree extends BinaryTree
 
    /**
     * Remove the minimum
-    * @param node
-    * @param performance
-    * @return
+    * @param node the root of the tree
+    * @param performance the performance object
+    * @return the new root
     */
    public BinaryTreeNode removeMin ( BinaryTreeNode node, Performance performance )
    {
@@ -210,9 +216,9 @@ public class AVLTree extends BinaryTree
 
    /**
     * Find the node
-    * @param d
-    * @param performance
-    * @return
+    * @param d the data to find
+    * @param performance the performance object
+    * @return the node or null
     */
    public BinaryTreeNode find ( String d, Performance performance )
    {
@@ -224,10 +230,10 @@ public class AVLTree extends BinaryTree
 
    /**
     * Find the node
-    * @param d
-    * @param node
-    * @param performance
-    * @return
+    * @param d the data to find
+    * @param node the root of the tree
+    * @param performance the performance object
+    * @return the node or null
     */
    public BinaryTreeNode find ( String d, BinaryTreeNode node, Performance performance ) {
       if (d.compareTo(node.data.getTerm()) == 0) {
@@ -262,6 +268,8 @@ public class AVLTree extends BinaryTree
 
    /**
     * In-order traversal
+    * @param node the root of the tree
+    * @param level the level
     */
    public void treeOrder ( BinaryTreeNode node, int level )
    {

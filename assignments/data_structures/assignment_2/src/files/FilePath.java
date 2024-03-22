@@ -1,15 +1,25 @@
 package files;
 import java.io.File;
 
+/**
+ * FilePath class for getting the file path
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class FilePath {
     private String filePath;
     private String fileName = "";
 
+    /**
+     * FilePath constructor
+     * @param fileName the fileName to set
+     */
     public FilePath(String fileName) {
         this.fileName = fileName;
     }
 
     /**
+     * Get the file path
      * @return String return the filePath
      */
     public String getFilePath() {
@@ -22,12 +32,17 @@ public class FilePath {
     }
 
     /**
+     * Get the file name
      * @return String return the fileName
      */
     public String getFileName() {
         return fileName;
     }
 
+    /**
+     * Override toString
+     * @return string format
+     */
     @Override
     public String toString() {
         return "FilePath [filePath=" + filePath + ", fileName=" + fileName + "]";

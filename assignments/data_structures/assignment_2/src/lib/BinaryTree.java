@@ -3,6 +3,7 @@ package lib;
 /**
  * Hussein's Binary Tree
  * Author: Hussein Suleman
+ * Edited: Awonke Mnotoza
  * Date: 26 March 2017
  */
 public class BinaryTree
@@ -19,6 +20,7 @@ public class BinaryTree
    
    /**
     * Get the height of the tree
+    * @return the height
     */
    public int getHeight ()
    {
@@ -27,7 +29,7 @@ public class BinaryTree
 
    /**
     * Get the height of the tree
-    * @param node
+    * @param node the root of the tree
     * @return the height of the tree
     */
    public int getHeight ( BinaryTreeNode node )
@@ -40,6 +42,7 @@ public class BinaryTree
 
    /**
     * Get the size of the tree
+    * @return the size
     */
    public int getSize ()
    {
@@ -48,7 +51,7 @@ public class BinaryTree
 
    /**
     * Get the size of the tree
-    * @param node
+    * @param node the root of the tree
     * @return the size of the tree
     */
    public int getSize ( BinaryTreeNode node )
@@ -61,7 +64,7 @@ public class BinaryTree
    
    /**
     * Visit the node
-    * @param node
+    * @param node the node to visit
     */
    public void visit ( BinaryTreeNode node )
    {
@@ -78,7 +81,7 @@ public class BinaryTree
 
    /**
     * Pre order traversal
-    * @param node
+    * @param node the root of the tree
     */
    public void preOrder ( BinaryTreeNode node )
    {
@@ -100,7 +103,7 @@ public class BinaryTree
 
    /**
     * Post order traversal
-    * @param node
+    * @param node the root of the tree
     */
    public void postOrder ( BinaryTreeNode node )
    {
@@ -122,7 +125,7 @@ public class BinaryTree
 
    /**
     * In order traversal
-    * @param node
+    * @param node the root of the tree
     */
    public void inOrder ( BinaryTreeNode node )
    {

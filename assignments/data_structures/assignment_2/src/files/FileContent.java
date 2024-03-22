@@ -8,7 +8,23 @@ import lib.BinaryTreeNode;
 import lib.DataType;
 import performance.Performance;
 
+/**
+ * FileContent class loads and extracts file content
+ * Author: Awonke Mnotoza
+ * Date: 21 March 2024
+ */
 public class FileContent {
+
+    /**
+     * Constructor
+     */
+    public FileContent() {}
+
+    /**
+     * Load and extract file content
+     * @param tree the tree
+     * @param path the path to the file
+     */
     public void loadGenericsFile(AVLTree tree, String path) {
         FilePath filePath = new FilePath(path);
 
@@ -25,6 +41,11 @@ public class FileContent {
         }
     }
 
+    /**
+     * Query file content in the tree
+     * @param tree the tree
+     * @param path the path to the file
+     */
     public void queryTree(AVLTree tree, String path) {
         FilePath filePath = new FilePath(path);
 
@@ -70,14 +91,10 @@ public class FileContent {
                     System.out.println("Query execution report for " + query + ":");
                     System.out.println(analysisOutput);
                 }
-
-
-            }
-
-            
+            } 
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("File not found: " + filePath.getFilePath());
         }
     }
 }

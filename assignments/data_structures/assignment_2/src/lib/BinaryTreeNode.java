@@ -3,6 +3,7 @@ package lib;
 /**
  * Hussein's Binary Tree Node
  * Author: Hussein Suleman
+ * Edited: Awonke Mnotoza
  * Date: 26 March 2017
  */
 public class BinaryTreeNode
@@ -14,9 +15,9 @@ public class BinaryTreeNode
    
    /**
     * Constructor
-    * @param d
-    * @param l
-    * @param r
+    * @param d the data
+    * @param l the left node
+    * @param r the right node
     */
    public BinaryTreeNode ( DataType d, BinaryTreeNode l, BinaryTreeNode r )
    {
@@ -28,19 +29,19 @@ public class BinaryTreeNode
 
    /**
     * Get the data stored in the node
-    * @return
+    * @return the data
     */
    public DataType getData () { return data; }
    
    /**
     * Get the left node
-    * @return
+    * @return the left
     */
    public BinaryTreeNode getLeft () { return left; }
 
    /**
     * Get the right node
-    * @return
+    * @return the right
     */
    public BinaryTreeNode getRight () { return right; }
 }
